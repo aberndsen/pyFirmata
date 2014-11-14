@@ -2,7 +2,7 @@ import serial
 import inspect
 import time
 import itertools
-from util import two_byte_iter_to_str, to_two_bytes
+from .util import two_byte_iter_to_str, to_two_bytes
 
 # Message command bytes - straight from Firmata.h
 DIGITAL_MESSAGE = 0x90      # send data for a digital pin
